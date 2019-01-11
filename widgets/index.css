@@ -21,12 +21,13 @@ span, article, footer, time, small {
   unicode-range: U+0370-03FF;
 }
 
+
 .clockBox {
   display: block; 
   width: 70%;
-  height: 70%;
+  height: 27%;
   margin: auto;
-  padding: 10px; 
+  padding: 20px; 
   flex-direction: column;
   background-color: limegreen;
   border: 5px solid black; 
@@ -46,8 +47,48 @@ label {
   justify-content: space-between;
 }
 
-.MainTabDiv {
-  background-color: skyblue;
-  width: 50%;
+.MainTabSection {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   height: 50%;
+  border: 2 2 2 0 solid black;
+  box-sizing: border-box;
+  border-radius: 5px; 
+}
+
+.TabHeaders {
+  display: flex;
+  justify-content: space-around;
+  background-color: skyblue;
+}
+
+.TabContent {
+  display:block; 
+  text-align: center;
+  height: 100px;
+  background-color: skyblue;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px; 
+
+}
+
+.tabs {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  padding-left: 8px;
+  border: 4px solid black;
+  border-radius: 5px; 
+}
+
+#main {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
 }
