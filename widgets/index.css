@@ -1,0 +1,49 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  list-style: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+.clockBox {
+  display: block; 
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  padding: 10px; 
+  flex-direction: column;
+
+  background-color: limegreen;
+  border: 5px solid black; 
+  box-sizing: border-box;
+}
+
+.time {
+  font-size: 30px;
+}
+
+label {
+  font-size: 30px; 
+}
+
+.innerClockDiv {
+  display: flex;
+  justify-content: space-between;
+
+}
