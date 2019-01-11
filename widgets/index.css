@@ -28,7 +28,6 @@ span, article, footer, time, small {
   margin: auto;
   padding: 10px; 
   flex-direction: column;
-
   background-color: limegreen;
   border: 5px solid black; 
   box-sizing: border-box;
@@ -45,5 +44,10 @@ label {
 .innerClockDiv {
   display: flex;
   justify-content: space-between;
+}
 
+.MainTabDiv {
+  background-color: skyblue;
+  width: 50%;
+  height: 50%;
 }
